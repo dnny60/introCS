@@ -1,0 +1,18 @@
+body {background-color: lightyellow;}
+a.nodex {text-decoration: none;}
+a:hover {color: red;}
+li em {color: blue;}
+h1, em {color: greem;}
+ul {margin-left: 20px;}
+ul ul {font-size: .8em;}
+p {color:red}
+#A {
+    background-color:#a52a2a;
+    width: 100%;
+    height: 50px;
+    overflow: scroll;
+}
+#B {
+    background-color:cornflowerblue;
+    padding: 50px;
+}

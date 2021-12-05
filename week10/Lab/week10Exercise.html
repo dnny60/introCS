@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab</title>
+	<link rel="icon" type="text/css" href=https://mset.nccu.edu.tw/theme/image.php/boost/theme/1599199768/favicon>
+	<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+	<h1>HELLO WORLD!</h1>
+	<h2>i am formatted with a Css.</h2>
+
+	<li>internal</li>
+	<li> <em>external</em> </li>
+
+	<p>Me too!</p>
+	<div id="A">
+		<h1>This is the first 片段</h1>
+		<h1>This is the first 片段</h1>
+		<h1>This is the first 片段</h1>
+		<h1>This is the first 片段</h1>
+		<h1>This is the first 片段</h1>
+		<h1>This is the first 片段</h1>
+	</div>
+	<div id="B">
+		<h1>This is second</h1>
+	</div>
+	<input type="button" value="first button" onclick="alert('HAHAH')">
+	<input type="button" value="SECOND button" onclick="alert('AAHAHAHAHAHAHAHA!')">
+	<input type="button" value="change to green" onclick="document.body.style.backgroundColor = '#24F5AE' ">
+	<input type="button" value="change to yellow" onclick="document.body.style.backgroundColor = '#DAFC30' ">
+
+	<script>
+		var rand = Math.floor((Math.random() * 10) + 1);
+		//random a number between 1 to 10
+		var input = prompt("please enter a number between 1 to 10 :");
+		while(isNaN(parseInt(input))){
+			prompt("please enter a number between 1 to 10!!")
+			var input = prompt("please enter a number between 1 to 10 :");
+		}
+		while(parseInt(input) > 10 || parseInt(input) < 1){
+			prompt("please enter a number between 1 to 10!!")
+			var input = prompt("please enter a number between 1 to 10 :");
+		}
+		while(input != rand){
+			var input = prompt("Worng!! Try again")
+		}
+		document.write("<p><h1>This number is " + rand + "</h1></p>");
+		document.write("<h1>Please refresh the website for play again!!</h1>")
+		console.log(rand);
+		
+		
+	</script>
+
+
+</body>
+</html>
