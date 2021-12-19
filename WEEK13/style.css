@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+}
+#inputArea {
+    text-align: left;
+    margin: 100px;
+    margin-bottom: 0;
+    padding-left: 25%;
+    background-color: aliceblue;
+  
+}
+#playbutton {
+    height: 50px; 
+    width: 100px; 
+    color: rgb(255, 255, 255);
+    background-color: brown; 
+    text-align: center; 
+    line-height: 50px;
+    border-radius: 5px;
+}
+#ResultArea{
+    border-style: dashed;
+    border-width: 3px;
+    border-color: gray;
+    margin-top: 0%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 25%;
+    
+}
+#Result{
+    background-color: rgb(230, 224, 224);
+    padding-left: 0%;
+    width: fit-content;
+}

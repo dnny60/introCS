@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+    <h1>New HTML5 Input Types Demo</h1>
+    <h5>This form demonnstrates the new HTML5 input types and the placeholder, required and autofocus attributes.</h5>
+    <form>
+    <p><label>Color: 
+        <input type="color" autofocus/>
+        (Hexadecimal code such as #ADD8E6)
+    </label>
+    </p>
+    <p>
+    <label>Date:
+        <input type="date" value="2021-11-11" min="2021-11-01" max="2021-11-30"/>
+    </label>
+    </p>
+    <p>
+        <label>Email:
+            <input type="email" placeholder="name@domain.com" required>
+            (name@domain.com)
+        </label>
+    </p>
+    <p>
+        <label>Number:
+            <input type="number" min="0" max="7">
+            (Enter a number between 0 and 7)
+        </label>
+    </p>
+    <p>
+        <label>
+            Range: 0
+            <input type="range" min="0" max="20">
+            20
+        </label>
+    </p>
+    <p>
+        Search
+        <input type="search" placeholder="search query">
+    </p>
+    <p>
+        Time:
+        <input type="time">
+        (hh:mm)
+    </p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="clear">
+    </form>
+
+</body>
+</html>
