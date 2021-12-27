@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW</title>
+    <link href="./main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <form action = "#">
+        <input id = "rollbutton" type="button" value="Roll Dice">
+    </form>
+    
+    <ul style="list-style-type:none;" id = "allDies">
+        <li>
+        <img id = "die1" src="img/die1.png" alt = 'blank img'>
+        <img id = "die2" src="img/die1.png" alt = 'blank img'>
+        <img id = "die3" src="img/die1.png" alt = 'blank img'>
+        <img id = "die4" src="img/die1.png" alt = 'blank img'>
+        <img id = "die5" src="img/die1.png" alt = 'blank img'>
+        <img id = "die6" src="img/die1.png" alt = 'blank img'></li>
+
+        <li>
+        <img id = "die7" src="img/die1.png" alt = 'blank img'>
+        <img id = "die8" src="img/die1.png" alt = 'blank img'>
+        <img id = "die9" src="img/die1.png" alt = 'blank img'>
+        <img id = "die10" src="img/die1.png" alt = 'blank img'>
+        <img id = "die11" src="img/die1.png" alt = 'blank img'>
+        <img id = "die12" src="img/die1.png" alt = 'blank img'></li>
+    </ul>
+    
+    <label style="text-align: center;">
+        Die Rolling Frequencies
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Face</th>
+                <th>Frequency</th>
+                <th>Precent</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td id="fre1"></td>
+                <td id="per1"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td id="fre2"></td>
+                <td id="per2"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td id="fre3"></td>
+                <td id="per3"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td id="fre4"></td>
+                <td id="per4"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td id="fre5"></td>
+                <td id="per5"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td id="fre6"></td>
+                <td id="per6"></td>
+            </tr>
+        </tbody>
+    </table>
+</label>
+  
+    
+</body>
+<script src="main.js"></script>
+</html>
